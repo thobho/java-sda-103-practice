@@ -9,6 +9,13 @@ import java.util.Scanner;
 public class FileReadingAndWriting {
 
   public static void main(String[] args) throws IOException {
+
+    Path pathToFile = Path.of("file.txt");
+    fileReading(pathToFile);
+
+  }
+
+  private static void fileReadingAndWriting() throws IOException {
     Path path = Path.of("file.txt");
     boolean fileAlreadyCreated = Files.exists(path);
     if(!fileAlreadyCreated){
