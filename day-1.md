@@ -1,5 +1,6 @@
-1. Git - powtórzenie i przygotowanie własnego repozytorium do pracy. 
-2. Algortym - definicja, przykłady, sposoby reprezentacji
+1. Git - powtórzenie 
+2. Przygotowanie własnego repozytorium do pracy. 
+3. Algortym - definicja, przykłady, sposoby reprezentacji
 
 
 ### Algorymy [link](http://www.algorytm.org/):
