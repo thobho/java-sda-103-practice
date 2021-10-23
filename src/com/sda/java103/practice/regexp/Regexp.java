@@ -1,4 +1,4 @@
-package sda.javabasics.weekend3;
+package com.sda.java103.practice.regexp;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
