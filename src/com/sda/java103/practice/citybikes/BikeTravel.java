@@ -1,8 +1,9 @@
-package com.sda.java103.practice.files.citybikes;
+package com.sda.java103.practice.citybikes;
 
+import java.time.Duration;
 import java.time.LocalDateTime;
 
-public class Travel {
+public class BikeTravel {
   private String id;
   private String bikeNumber;
   private LocalDateTime travelStart;
@@ -10,16 +11,21 @@ public class Travel {
   private String startStation;
   private String endStation;
 
-  public Travel(String id) {
+  public BikeTravel(String id) {
     this.id = id;
   }
 
-  public Travel(String id, String bikeNumber, LocalDateTime travelStart, LocalDateTime travelEnd, String startStation, String endStation) {
+  public BikeTravel(String id, String bikeNumber, LocalDateTime travelStart, LocalDateTime travelEnd, String startStation, String endStation) {
     this.id = id;
     this.bikeNumber = bikeNumber;
     this.travelStart = travelStart;
     this.travelEnd = travelEnd;
     this.startStation = startStation;
     this.endStation = endStation;
+  }
+
+  public Duration getDurationOfTravel(){
+    //this.travelEnd (-) this.travelStart
+    return null;
   }
 }
